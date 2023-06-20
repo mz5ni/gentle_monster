@@ -1,0 +1,271 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>detail</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="detail.css">
+
+</head>
+<body>
+<header>
+      <div class="logo"><a href="index.html"><img src="./image/logo.png"></a></div>
+      <div class="nav">
+        <div class="nav-items primary">
+          <a href="" id="main-event">Shop in AU</a>
+          <a href="product.html">Sunglasses</a>
+          <a href="collection.html">Collaborations</a>
+        </div>
+        <div class="nav-items">
+          <a href="#" id="menu-toggle">Menu</a>
+        </div>
+      </div>
+
+      <div class="fullscreen-menu" id="fullscreen-menu">
+        <div class="menu-left">
+            <div class="menu-logo"><img src="./image/menu-logo.png"></div>
+            <ul class="service">
+              <li><a href="">Customer Service</a></li>
+              <li><a href="">Legal Notice</a></li>
+              <li><a href="">Social Media</a></li>
+            </ul>
+        </div>
+        <div class="menu-right">
+        <ul class="menu">
+              <li><a href="product.html">Sunglasses</a></li>
+              <li><a href="product.html">Glasses</a></li>
+              <li><a href="collection.html">Collaborations</a></li>
+              <li><a href="">Styles</a></li>
+              <li><a href="">Stories</a></li>
+              <li><a href="">Services</a></li>
+            </ul>
+        </div>
+        <span class="close-btn" id="close-btn">&times;</span>
+      </div>
+</header>
+
+
+	<div class="width_flex">
+   <div class="detail_img">
+      <ul>
+        <li><img src="./image/detail1.png" onclick="openModal(this)"></li>
+        <li><img src="./image/detail2.png" onclick="openModal(this)"></li>
+        <li><img src="./image/detail3.png" onclick="openModal(this)"></li>
+        <li><img src="./image/detail4.png" onclick="openModal(this)"></li>
+        <li><img src="./image/detail5.png" onclick="openModal(this)"></li>
+        <li><img src="./image/detail6.png" onclick="openModal(this)"></li>
+      </ul>
+ 
+
+  <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+		</div>
+		<div class="detail_info_block">
+			<div class="detail_info">
+				<div class="info_flex">
+					<div class="name1">Maison Margiela</div>
+					<div><a href=""><img src="./image/heart.png"></a></div>
+				</div>
+				<div class="name2">MM003 01</div>
+				<div class="price">AU $539</div>
+
+				<div class="info_flex">
+					<div class="ct" onclick="toggleMenu()">
+						  <div class="color1">Color</div>
+						  <div class="color2">Black &#9679; &rarr;</div>
+						  <div class="chos">
+						    <ul class="top">
+						      <li><img src="./image/chos1.png"></li>
+						      <li><img src="./image/chos2.png"></li>
+						  </ul>
+						  <ul class="bottom">
+						      <li><img src="./image/chos3.png"></li>
+						      <li><img src="./image/chos4.png"></li>
+						    </ul>
+						  </div>
+						</div>
+					
+				</div>
+				<div class="info_flex">
+					<a href="" class="btn12 btn1">Add to Shopping Bag</a>
+					<a href="" class="btn12 btn2">Add to Wishlist</a>
+				</div>
+
+				<div class="cship" style="margin-bottom: 40px;">Complimentary shipping</div>
+
+				<a href="" class="link">Product Details</a>
+				<a href="" class="link">Shipping & Returns</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="width_flex">
+		<div class="product_ment">
+			<div class="product_title">PRODUCT</div>
+			Drawing from sports eyewear designs, the MM003 01 sunglasses feature an aviator silhouette structured from black acetate. The dual-wear shades can be worn as a headband or tiara back-to-front to reveal the Maison Margiela logo on the top of the eyewear's bridge. Its sides are adorned with real threaded details of Maison Margiela’s iconic four white stitches.
+		</div>
+		<div class="number">
+			<img src="./image/detail7.png">
+		</div>
+	</div>
+
+	<div class="width_flex">
+		<div class="detail_img">
+			<ul>
+				<li><img src="./image/detail8.png"></li>
+			</ul>
+		</div>
+
+		<div class="info2">
+			<div class="info2_block">
+				<div class="info2_list">
+
+					<div class="group-list">
+						<div class="centents">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis at nunc eu malesuada. Proin vestibulum, justo ut congue posuere, dolor sem iaculis justo, id imperdiet enim nunc id sem.
+						</div>
+					</div>
+					
+					<div class="bottom-line"></div>
+
+					<input id="group-2" type="checkbox" hidden />
+					<label for="group-2">Product Details
+						<i class="fa fa-chevron-down" aria-hidden="true"></i>
+					</label>
+					<div class="group-list">
+						<div class="centents">
+							- Black acetate frame<br>
+							- Black lenses<Br>
+							- Aviator shape that doubles as a headband<br>
+							- Four white stitches on the sides of the temples in a nod to Maison Margiela's iconic detail<br>
+							- Maison Margiela X Gentle Monster Collection logo on the upper part of the frame<br>
+							- Frame Front: 149.8mm, Frame Side: 107mm
+							Lens Width: 55.3mm, Lens Height: 35.8mm
+							Bridge: 19mm<br>
+
+							Size Guide<br>
+							- Manufacturer&Importer: IICOMBINED CO., LTD.<br>
+							- Country of Manufacturer: China
+						</div>
+					</div>
+					
+					<div class="bottom-line"></div>
+
+					<input id="group-3" type="checkbox" hidden />
+					<label for="group-3">Shipping & Returns
+						<i class="fa fa-chevron-down" aria-hidden="true"></i>
+					</label>
+					<div class="group-list">
+						<div class="centents">
+							- Free Shipping<br>
+							Please allow up to 3-5 business days for your order to be processed and shipped<Br><Br>
+							- Free Gift Packaging<Br>
+							Our gift packaging includes a signature gift box<Br>
+							Complimentary Gift Wrapping<Br><br>
+							- All purchases made on the official Gentle Monster website will be packaged with a special bow.
+							<img src="./image/pack.png">
+						</div>
+					</div>
+					
+					<div class="bottom-line"></div>
+
+					<input id="group-4" type="checkbox" hidden />
+					<label for="group-4">Import duty & Tax
+						<i class="fa fa-chevron-down" aria-hidden="true"></i>
+					</label>
+					<div class="group-list">
+						<div class="centents">
+							Gentle Monster ship all products on terms of DAP (Delivered At Place).<br><br>
+
+							Product price doest not include tax and the amount of duties will vary by different terms and tax policy for each country.
+						</div>
+					</div>
+					
+					<div class="bottom-line"></div>
+
+					<input id="group-5" type="checkbox" hidden />
+					<label for="group-5">Questions?
+						<i class="fa fa-chevron-down" aria-hidden="true"></i>
+					</label>
+					<div class="group-list">
+						<div class="centents">
+							- By Telephone: +82 1600 2126<br>
+							- Email: Contact Us<br>
+							- Monday to Friday, 9:30am to 5pm (GMT +9)
+						</div>
+					</div>
+					
+					<div class="bottom-line"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="line"></div>
+        <footer>
+            <div class="social">
+                <a href="">INSTAGRAM</a>
+                <a href="">FACEBOOK</a>
+                <a href="">YOUTUBE</a>
+                <a href="">WEIBO</a>
+                <a href="">TWITTER</a>
+            </div>
+
+            <div class="co">All rights reserved. IICOMBINED Co., Ltd.</div>
+
+            <div class="service">
+            <a href="">FAQ</a>
+            <a href="">CONTACT US</a>
+            <a href="">TERMS OF USE</a>
+            <a href="">COOKIE POLICY</a>
+            <a href="">PRIVACY POLICY</a>
+            </div>
+        </footer>
+
+  <script>
+    function openModal(element) {
+      var modal = document.getElementById("myModal");
+      var modalImg = document.getElementById("modalImage");
+
+      
+      // 모달 창 열기
+      modal.style.display = "block";
+       // 클릭한 이미지의 소스를 모달 창의 이미지에 설정
+      modalImg.src = element.src;
+
+       // 모달 이미지를 클릭하면 확대
+    modalImg.onclick = function() {
+      this.style.width = "160%";
+      this.style.height = "180%";
+    }
+    }
+
+    function closeModal() {
+      var modal = document.getElementById("myModal");
+      // 모달 창 닫기
+      modal.style.display = "none";
+    }
+  </script>
+  <script>
+function toggleMenu() {
+  var container = document.querySelector('.ct');
+  container.classList.toggle('open');
+}
+</script>
+
+ <script>
+    /*Menu 링크를 클릭하면 #fullscreen-menu 요소에 active 클래스를 토글*/
+    $(document).ready(function() {
+      $("#menu-toggle").click(function() {
+        $("#fullscreen-menu").toggleClass("active");
+      });
+
+      /*#close-btn를 클릭하면 #fullscreen-menu에서 active 클래스를 제거*/
+      $("#close-btn").click(function() {
+        $("#fullscreen-menu").removeClass("active");
+      });
+    });
+  </script>
+
+</body>
+</html>
